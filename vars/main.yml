@@ -4,12 +4,12 @@ install_files:
   - owner:              'root'
     group:              'root'
     mode:               '0644'
-    src:                "certificate-authority/ca/root/cert.pem"
+    src:                "../../certificate-authority/ca/root/cert.pem"
     dest:               '/usr/share/ca-certificates/Aaron_Root_CA.crt'
   - owner:              'root'
     group:              'root'
     mode:               '0644'
-    src:                "certificate-authority/ca/intermediate/cert.pem"
+    src:                "../../certificate-authority/ca/intermediate/cert.pem"
     dest:               '/usr/share/ca-certificates/Aaron_Intermediate_CA.crt'
 lines_in_files:
   - line:               'Aaron_Root_CA.crt'
